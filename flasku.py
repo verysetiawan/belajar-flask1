@@ -1,8 +1,13 @@
-from flask import Flask, render_template, request, session
+from flask import Flask, render_template
 
 app = Flask(__name__)
-app.config["SECRET_KEY"] = "IniSecretKeyKu2020"
 
+@app.route("/")
+def hello():
+    nilai = 100
+    #perulangan
+    angka = [1,2,3,4,5,6,7,8,9,10]
+    return render_template("index.html", value=nilai, angka=angka)
 
 if __name__ == "__main__":
     app.run (host='0.0.0.0', debug=True)
