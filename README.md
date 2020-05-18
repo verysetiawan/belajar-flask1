@@ -1,6 +1,2 @@
-# belajar-flask part 4
-belajar flask basic :
-<li>
-<ol>render template<ol>
-<ol>url for / href<ol>
-</li>
+# belajar-flask part 1
+belajar sintaks basic flask
